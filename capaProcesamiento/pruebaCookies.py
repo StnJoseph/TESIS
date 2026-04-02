@@ -22,7 +22,6 @@ import hashlib
 import requests
 import fitz  # PyMuPDF
 from pathlib import Path
-from bs4 import BeautifulSoup
 
 
 # ── Configuración — actualizar cookies cuando expiren ─────────────────────────
@@ -160,7 +159,7 @@ def extraer_y_hashear(ruta_pdf: Path) -> dict:
     integridad — sensible a cualquier modificación, incluso en metadatos.
     """
     doc = fitz.open(ruta_pdf)
-    texto= "\n".join(doc.load_page(i).get_text("text") for i in range(doc.page_count))
+    texto= "\n".join(doc.load_page(i).get_text("text") for i in range(doc.page_count)) # type: ignore
     n_paginas = doc.page_count
     doc.close()
 
@@ -279,4 +278,4 @@ if __name__ == "__main__":
 
     # Paso 2: diagnosticar la descarga antes de intentar guardar
     if mkey:
-        diagnosticar_descarga(mkey, url_origen)
+        diagnosticar_descarga(mkey, url_origen) # type: ignore

@@ -4,7 +4,6 @@ import hashlib
 import requests
 import fitz
 from pathlib import Path
-from bs4 import BeautifulSoup
 
 COOKIES = {
     "PublicSessionCookie": "4nbmhu0rijry2ym5kh4xkj3k",
@@ -114,8 +113,7 @@ def procesar_contrato(notice_uid: str,
     print(f"[4/4] PDF guardado: {ruta_pdf.name}")
 
     doc         = fitz.open(ruta_pdf)
-    texto       = "\n".join(doc.load_page(i).get_text("text")
-                            for i in range(doc.page_count))
+    texto       = "\n".join(doc.load_page(i).get_text("text") for i in range(doc.page_count)) # type: ignore
     n_paginas   = doc.page_count
     doc.close()
     hash_sha256 = hashlib.sha256(ruta_pdf.read_bytes()).hexdigest()

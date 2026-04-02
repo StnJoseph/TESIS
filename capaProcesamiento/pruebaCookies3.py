@@ -63,7 +63,7 @@ def descargar_pdf_playwright(notice_uid: str,
             ),
             accept_downloads=True,
         )
-        context.add_cookies(COOKIES_SESION)
+        context.add_cookies(COOKIES_SESION) # type: ignore
 
         page = context.new_page()
 
@@ -157,9 +157,7 @@ def descargar_pdf_playwright(notice_uid: str,
 
 def extraer_y_hashear(ruta_pdf: Path) -> dict:
     doc       = fitz.open(ruta_pdf)
-    texto     = "\n".join(
-        doc.load_page(i).get_text("text") for i in range(doc.page_count)
-    )
+    texto     = "\n".join(doc.load_page(i).get_text("text") for i in range(doc.page_count)) # type: ignore
     n_paginas = doc.page_count
     doc.close()
 
