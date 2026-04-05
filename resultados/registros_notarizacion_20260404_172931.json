@@ -1,0 +1,294 @@
+[
+  {
+    "notice_uid": "CO1.NTC.5243512",
+    "id_contrato": "CO1.PCCNTR.5598957",
+    "hash_sha256": "b7ee6d9680c509cfa0316cca3ca15161e51e58c582e6e0fea3339bad254ac6dc",
+    "timestamp_pipeline": "2026-04-04T22:28:33.860665+00:00",
+    "n_paginas": 2,
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "0",
+        "valor_pdf": "3,154,066",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "DIANA LORENA GORDILLO INSUASTI",
+        "valor_pdf": null,
+        "resultado": "DATO_AUSENTE",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "35 Dia(s)",
+        "valor_pdf": "35 (Días)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2023-12-31",
+        "valor_pdf": "2023-12-31",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [],
+    "campos_pdf": {
+      "valor_pdf": "3.154.066",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación\ndirecta",
+      "duracion_pdf": "35 (Días)",
+      "fecha_fin_pdf": "31/12/2023",
+      "proveedor_pdf": null,
+      "valor_numerico_pdf": 3154066
+    },
+    "ruta_local": "docs_descargados\\CO1.NTC.5243512.pdf",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.2335373",
+    "id_contrato": "CO1.PCCNTR.2959813",
+    "hash_sha256": "3e4d64b3f3df046bd20c65ce7853a4cbed30300dcd0c3206bfbf5ada9afa2e51",
+    "timestamp_pipeline": "2026-04-04T22:28:57.302738+00:00",
+    "n_paginas": 3,
+    "clasificacion": "INCONSISTENTE",
+    "n_inconsistencias": 1,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "54,600,000",
+        "valor_pdf": "9,462,000",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Valor: API=$54,600,000 vs PDF=$9,462,000 (82.67%)"
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "ROBINSON PATIÑO CEBALLOS",
+        "valor_pdf": null,
+        "resultado": "DATO_AUSENTE",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "70 Dia(s)",
+        "valor_pdf": "70 (Días)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2021-12-28",
+        "valor_pdf": "2021-12-28",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Valor: API=$54,600,000 vs PDF=$9,462,000 (82.67%)"
+    ],
+    "campos_pdf": {
+      "valor_pdf": "9.462.000",
+      "numero_proceso_pdf": "4146.010.32.1.0895-2021",
+      "tipo_proceso_pdf": "Contratación\ndirecta",
+      "duracion_pdf": "70 (Días)",
+      "fecha_fin_pdf": "28/12/2021",
+      "proveedor_pdf": null,
+      "valor_numerico_pdf": 9462000
+    },
+    "ruta_local": "docs_descargados\\CO1.NTC.2335373.pdf",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.5127334",
+    "id_contrato": "CO1.PCCNTR.5509285",
+    "hash_sha256": "1edba5fc4eced678e43899850c603b481efc2ed6c3d5fd6f30f2f3bc6e02c9cc",
+    "timestamp_pipeline": "2026-04-04T22:29:06.075490+00:00",
+    "n_paginas": 2,
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "3,150,000",
+        "valor_pdf": "3,150,000",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "YESSICA KATTERINE CIFUENTES DIMINGO",
+        "valor_pdf": null,
+        "resultado": "DATO_AUSENTE",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "60 Dia(s)",
+        "valor_pdf": "60 (Días)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2023-12-31",
+        "valor_pdf": "2023-12-31",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [],
+    "campos_pdf": {
+      "valor_pdf": "3.150.000",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "60 (Días)",
+      "fecha_fin_pdf": "31/12/2023",
+      "proveedor_pdf": null,
+      "valor_numerico_pdf": 3150000
+    },
+    "ruta_local": "docs_descargados\\CO1.NTC.5127334.pdf",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.7025417",
+    "id_contrato": "CO1.PCCNTR.7008225",
+    "hash_sha256": "fada5b6d5d7f038b33287b4866c5c06367409fbc7dc43587dff47bd28034d574",
+    "timestamp_pipeline": "2026-04-04T22:29:14.930892+00:00",
+    "n_paginas": 2,
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "0",
+        "valor_pdf": "3,150,000",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "MARIANA HENAO CORREA",
+        "valor_pdf": null,
+        "resultado": "DATO_AUSENTE",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "38 Dia(s)",
+        "valor_pdf": "38 (Días)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2024-12-16",
+        "valor_pdf": "2024-12-16",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [],
+    "campos_pdf": {
+      "valor_pdf": "3.150.000",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación\ndirecta",
+      "duracion_pdf": "38 (Días)",
+      "fecha_fin_pdf": "16/12/2024",
+      "proveedor_pdf": null,
+      "valor_numerico_pdf": 3150000
+    },
+    "ruta_local": "docs_descargados\\CO1.NTC.7025417.pdf",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.1595102",
+    "id_contrato": "CO1.PCCNTR.2041066",
+    "hash_sha256": "eb0c4eb649a5c6a4d05046855b79293fcdf7a3b8efd933081b7031ce03c71904",
+    "timestamp_pipeline": "2026-04-04T22:29:23.233137+00:00",
+    "n_paginas": 2,
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "3,100,000",
+        "valor_pdf": "3,100,000",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "LUIS ALBERTO CORREDOR LONDOÑO",
+        "valor_pdf": null,
+        "resultado": "DATO_AUSENTE",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "25 Dia(s)",
+        "valor_pdf": "25 (Días)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2020-12-31",
+        "valor_pdf": "2020-12-31",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [],
+    "campos_pdf": {
+      "valor_pdf": "3.100.000",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "25 (Días)",
+      "fecha_fin_pdf": "31/12/2020",
+      "proveedor_pdf": null,
+      "valor_numerico_pdf": 3100000
+    },
+    "ruta_local": "docs_descargados\\CO1.NTC.1595102.pdf",
+    "error": ""
+  }
+]

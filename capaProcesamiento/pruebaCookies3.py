@@ -21,13 +21,13 @@ from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeo
 COOKIES_SESION = [
     {
         "name": "PublicSessionCookie", 
-        "value": "4nbmhu0rijry2ym5kh4xkj3k",
+        "value": "jrmesebiat2mhaq4qg45xj4j",
         "domain": "community.secop.gov.co", 
         "path": "/"
     },
     {
         "name": "ROUTEID",             
-        "value": ".fe_com_04",
+        "value": ".fe_com_03",
         "domain": "community.secop.gov.co", 
         "path": "/"
     },
